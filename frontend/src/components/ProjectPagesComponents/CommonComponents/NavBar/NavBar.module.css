@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 10px;
+    border-bottom: 1px solid #777777;
+}
+
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container > div:first-child button {
+    border: none;
+    outline: none; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: transparent;
+}
+
+.container > div:first-child button svg {
+    width: 40px;
+    fill: var(--primary);
+    transition: all 0.3s ease;
+}
+
+
+.container > div:first-child button:hover svg {
+    fill: #1892ff;
+}
+
+.container > div:first-child button:active {
+    transform: scale(0.95);
+}
+
+.container > div:last-child button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform: all 0.3s ease;
+    background-color: transparent;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+}
+
+.container > div:last-child button img {
+    width: 40px;
+    border-radius: 50%;
+}

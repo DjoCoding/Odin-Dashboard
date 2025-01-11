@@ -1,0 +1,16 @@
+.container {
+    flex: 3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+svg {
+    width: 20px;
+}
+
+img {
+    width: 20px;
+}
+

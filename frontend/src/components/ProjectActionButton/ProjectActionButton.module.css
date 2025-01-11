@@ -1,0 +1,18 @@
+.button {
+    border: none;
+    outline: none;
+    background-color: white; 
+    cursor: pointer;
+}
+
+
+.button svg {
+    width: 25px;
+    transition: all 0.3s ease;
+    fill: black;
+}
+
+
+.button:hover svg {
+    fill: #1892d3;
+}

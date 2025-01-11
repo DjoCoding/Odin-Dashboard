@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 5px;
+}
+
+.container:has(:only-child) {
+    width: 100%;
+}
+
+
+
+.container label {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 60%);
+}

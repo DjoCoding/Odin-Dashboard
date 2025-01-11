@@ -1,0 +1,29 @@
+.option {
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.option svg {
+    fill: white;
+    width: 35px;
+    transition: all 0.3s ease;
+}
+
+.option h2 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 25px;
+}
+
+.option:hover {
+    transform: translateX(10px);
+}
+
+.option:hover svg {
+    scale: 1.25;
+}

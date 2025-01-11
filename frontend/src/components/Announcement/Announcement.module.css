@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px;
+    gap: 5px;
+}
+
+.container h3 {
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+.container p {
+    color: #aaa;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-wrap: wrap;
+}

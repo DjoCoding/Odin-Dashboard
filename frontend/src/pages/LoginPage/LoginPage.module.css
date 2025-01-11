@@ -1,0 +1,9 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    --primary: #1892d3;
+    --secondary: white;
+    --fallback: rgba(0, 0, 0, 80%);
+}
+

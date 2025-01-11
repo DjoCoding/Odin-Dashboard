@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    place-content: center;
+    padding: 30px;
+}
+
+.container h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+    color: var(--secondary);
+}

@@ -1,0 +1,17 @@
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 20px;
+}
+
+.container svg {
+    width: 40px;
+    fill: var(--primary);
+}
+
+.container h1 {
+    font-size: 40px;
+    color: var(--primary);
+}

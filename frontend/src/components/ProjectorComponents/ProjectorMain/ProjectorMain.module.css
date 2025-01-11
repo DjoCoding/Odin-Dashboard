@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.container > div {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container div h2 {
+    text-wrap: wrap;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: var(--primary);
+}
+
+.container div div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container div div p {
+    font-size: 20px;
+    color: var(--fallback);
+}
+
+.container div button {
+    border-color: var(--primary);
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
+    border-radius: 20px;
+    padding: 5px 50px;
+    font-size: 30px;
+    background-color: var(--secondary);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.container div button:hover {
+    background-color: var(--primary);
+}
+
+.container div button:hover a {
+    color: var(--secondary);
+}
+
+
+.container div button:active {
+    transform: scale(0.95);
+}
+
+.container div button a {
+    text-decoration: none;
+    color: var(--primary);
+    transition: all 0.3s ease;
+}

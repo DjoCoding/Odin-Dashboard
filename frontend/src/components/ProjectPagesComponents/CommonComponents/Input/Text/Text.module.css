@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container label {
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--primary);
+}
+
+.container label span {
+    color: #666666;
+    font-size: 15px;
+}
+
+.container input {
+    outline: none;
+    border: 1px solid #555555;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 17px;
+}
+
+.container input:focus {
+    border: 2px solid var(--primary);
+}

@@ -1,0 +1,45 @@
+.container {
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    background-color: white;
+    border-radius: 20px;
+    border-left: 7px solid orange;
+}
+
+.container h2 {
+    font-size: 20px;
+}
+
+.container p {
+    font-size: 15px;
+    font-weight: 400;
+    color: rbg(0, 0, 0, 50%);
+}
+
+.projectActionsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.projectActions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.stateContainer svg {
+    fill: #555555;
+}
+
+.descriptionContainer {
+    flex-grow: 1;
+}

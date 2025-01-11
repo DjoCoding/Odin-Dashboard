@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px 0px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 0;
+    transition: all 0.3s ease;
+}
+
+.info.visible {
+    height: 20px;
+}
+
+.info svg {
+    fill: #666666;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.info svg:hover {
+    fill: #777777;
+}
+
+.info p {
+    color: #777777;
+}
+
+
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

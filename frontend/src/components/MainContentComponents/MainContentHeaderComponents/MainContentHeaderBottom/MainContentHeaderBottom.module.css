@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    padding: 5px 30px 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.user img {
+    width: 60px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.user img:hover {
+    scale: 1.1;
+}
+
+.greetUser {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+} 
+
+.greetUser p {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.greetUser h2 {
+    font-size: 22px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+

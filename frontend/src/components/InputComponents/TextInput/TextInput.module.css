@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    padding: 0px 5px;
+}
+
+.container input {
+    padding: 5px 8px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 60%);
+    outline: none;
+    border-radius: 10px;
+    background-color: #eee;
+}
+
+.container input:focus {
+    border: 1px solid rgba(0, 0, 0, 80%);
+}

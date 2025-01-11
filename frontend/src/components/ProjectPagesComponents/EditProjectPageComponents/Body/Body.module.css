@@ -1,0 +1,11 @@
+.container {
+    flex-grow: 1;
+    margin: auto;
+}
+
+.innerContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 720px;
+    height: 100%;
+}
